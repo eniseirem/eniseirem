@@ -1,4 +1,7 @@
 # Hi, That's me!
+- > [Linkedin](https://www.linkedin.com/in/eniseirem/)
+> I've a sticker which says "Talk is cheap show me the code." 
+> So here I am, showing you **The Code**. 
 
 ```python
 import educations as e
@@ -11,13 +14,11 @@ class eniseirem:
      location = "Istanbul"
      age = 23
      
-      # A sample method  
-     def get_cv(self): 
-          return ""
-    
+      # You can directly open my linkedin for more info. 
+      
      def get_linkedin(self):
           return "https://www.linkedin.com/in/eniseirem/"
-          
+   
      def get_current_job(self):
           jobs = j.all()
           jobs = jobs.sort_values("timestamps")          
