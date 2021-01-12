@@ -1,14 +1,66 @@
 # Hi, That's me!
 
 ```python
+import educations as e
+import jobs as j
 
 # A simple class to learn about the person
 class eniseirem:
-     job = "Software Engineer"
- 
+     name = "Enise İrem Çolak"
+     title = "Software Engineer"
+     location = "Istanbul"
+     age = 23
+     
       # A sample method  
-     def cv(self): 
+     def get_cv(self): 
           return ""
-     def linkedin(self):
+    
+     def get_linkedin(self):
           return "https://www.linkedin.com/in/eniseirem/"
-```python
+          
+     def get_current_job(self):
+          jobs = j.all()
+          jobs = jobs.sort_values("timestamps")          
+          return jobs[-1] ## Kapital Medya, Software Developer        
+          
+     def get_education(self):
+          if(e.degree=="Bachelor's"):
+               e.university("Bahcesehir University")
+               e.departmant("Software Engineering")
+               e.graduate(True)
+               e.year(2015,2019)
+               
+          elif(e.degree=="Master's"):
+               e.university("Bahcesehir University")
+               e.departmant("Big Data")
+               e.graduate(False)
+               e.year(2019,2022)
+               
+          else:
+               return "wdy need mate?"
+               
+           return e.educations()
+           
+
+     def get_knowledge(self):
+          
+          knowledge["frameworks"]            =    {'PHP': [
+                                                            Laravel]
+                                                  'Python': [
+                                                             Django] }
+                                             
+          knowledge["programming_languages"] =  {"Python" : "data science main",
+                                                  "PHP"   : "Current job",    
+                                                  "R"     : "data science basic knowledge",
+                                                  "Java"  : "used in bachelors"
+                                                  "C#"    : "used in bachelors2"
+                                                  "Julia" : "Personal curiosity, learning"}
+                                                  
+          knowledge["languages"]             =  {  "Turkish" : "Native",
+                                                   "English" : "Professional",
+                                                   "Italian" :  "A1"          
+                                                  }
+          
+          return knowledge
+
+```
