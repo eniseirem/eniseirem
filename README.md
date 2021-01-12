@@ -1,5 +1,5 @@
 # Hi, That's me!
-- > [Linkedin](https://www.linkedin.com/in/eniseirem/)
+- > [Linkedin](https://www.linkedin.com/in/eniseirem/) [Medium](https://medium.com/me/design)
 > I've a sticker which says "Talk is cheap show me the code." 
 > So here I am, showing you **The Code**. 
 
@@ -45,21 +45,21 @@ class eniseirem:
 
      def get_knowledge(self):
           
-          knowledge["frameworks"]            =    {'PHP': [
-                                                            Laravel]
-                                                  'Python': [
-                                                             Django] }
+          knowledge["frameworks"]            =    {PHP  :  "Laravel",
+                                                  Python:  "Django"}
                                              
-          knowledge["programming_languages"] =  {"Python" : "data science main",
-                                                  "PHP"   : "Current job",    
-                                                  "R"     : "data science basic knowledge",
-                                                  "Java"  : "used in bachelors"
-                                                  "C#"    : "used in bachelors2"
-                                                  "Julia" : "Personal curiosity, learning"}
+          knowledge["programming_languages"] =  { "Python" : "data science main",
+                                                  "PHP"    : "Current job",    
+                                                  "R"      : "data science basic knowledge",
+                                                  "Matlab" : "School needs it sometimes",
+                                                  "Java"   : "used in bachelors",
+                                                  "C#"     : "used in bachelors2",
+                                                  "Julia"  : "Personal curiosity, learning"}
+          knowledge["other_technologies"]    = [GNU/Linux, MySQL, Weka]
                                                   
-          knowledge["languages"]             =  {  "Turkish" : "Native",
-                                                   "English" : "Professional",
-                                                   "Italian" :  "A1"          
+          knowledge["languages"]             =  {  Turkish : "Native",
+                                                   English : "Professional",
+                                                   Italian :  "A1"          
                                                   }
           
           return knowledge
