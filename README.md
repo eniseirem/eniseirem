@@ -1,5 +1,5 @@
 # Hi, That's me!
-- > [Linkedin](https://www.linkedin.com/in/eniseirem/) [Medium](https://medium.com/me/design)
+- > [Linkedin](https://www.linkedin.com/in/eniseirem/) [Medium](https://medium.com/@eniseirem)
 > I've a sticker which says "Talk is cheap show me the code." 
 > So here I am, showing you **The Code**. 
 
@@ -55,6 +55,7 @@ class eniseirem:
                                                   "Java"   : "used in bachelors",
                                                   "C#"     : "used in bachelors2",
                                                   "Julia"  : "Personal curiosity, learning"}
+                                                  
           knowledge["other_technologies"]    = [GNU/Linux, MySQL, Weka]
                                                   
           knowledge["languages"]             =  {  Turkish : "Native",
@@ -65,3 +66,5 @@ class eniseirem:
           return knowledge
 
 ```
+*disclaimer : ofc this code is not working, its justs for fun, thanks.
+inspiration : [ashbakernz](https://github.com/ashbakernz)*
