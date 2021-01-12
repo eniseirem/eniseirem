@@ -1,12 +1,14 @@
 # Hi, That's me!
 
-     
-    # A simple class to learn about the person
-     class eniseirem:
-          job = "Software Engineering"
+```python
+
+# A simple class to learn about the person
+class eniseirem:
+     job = "Software Engineer"
  
-          # A sample method  
-          def cv(self): 
-               return ""
-          def linkedin(self):
-              return "https://www.linkedin.com/in/eniseirem/"
+      # A sample method  
+     def cv(self): 
+          return ""
+     def linkedin(self):
+          return "https://www.linkedin.com/in/eniseirem/"
+```python
