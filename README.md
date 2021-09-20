@@ -22,7 +22,7 @@ class eniseirem:
      def get_current_job(self):
           jobs = j.all()
           jobs = jobs.sort_values("timestamps")          
-          return jobs[-1] ## Kapital Medya, Software Developer        
+          return jobs[-1] ## Vakıfbank, IT Assistant Specialist, Machine Learning/Python        
           
      def get_education(self):
           if(e.degree=="Bachelor's"):
@@ -48,8 +48,8 @@ class eniseirem:
           knowledge["frameworks"]            =    {PHP  :  "Laravel",
                                                   Python:  "Django"}
                                              
-          knowledge["programming_languages"] =  { "Python" : "data science main",
-                                                  "PHP"    : "Current job",    
+          knowledge["programming_languages"] =  { "Python" : "data science main, current job",
+                                                  "PHP"    : "Ex-job",    
                                                   "R"      : "data science basic knowledge",
                                                   "Matlab" : "School needs it sometimes",
                                                   "Java"   : "used in bachelors",
