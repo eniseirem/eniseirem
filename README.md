@@ -12,7 +12,7 @@ class eniseirem:
      name = "Enise İrem Çolak"
      title = "Software Engineer"
      location = "Istanbul"
-     age = 24
+     age = 26
      
       # You can directly open my linkedin for more info. 
       
@@ -34,8 +34,8 @@ class eniseirem:
           elif(e.degree=="Master's"):
                e.university("Bahcesehir University")
                e.departmant("Big Data")
-               e.graduate(False)
-               e.year(2019,2022)
+               e.graduate(True)
+               e.year(2020,2023)
                
           else:
                return "wdy need mate?"
