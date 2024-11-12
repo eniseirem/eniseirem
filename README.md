@@ -11,8 +11,8 @@ import jobs as j
 class eniseirem:
      name = "Enise İrem Çolak"
      title = "Software Engineer"
-     location = "Istanbul"
-     age = 26
+     location = "Istanbul - Berlin"
+     age = 27
      
       # You can directly open my linkedin for more info. 
       
@@ -31,11 +31,17 @@ class eniseirem:
                e.graduate(True)
                e.year(2015,2019)
                
-          elif(e.degree=="Master's"):
+          elif(e.degree=="Master's First"):
                e.university("Bahcesehir University")
                e.departmant("Big Data")
                e.graduate(True)
                e.year(2020,2023)
+
+          elif(e.degree=="Master's Second"):
+               e.university("Free University of Berlin")
+               e.departmant("Data Science")
+               e.graduate(False)
+               e.year(2024,2026)
                
           else:
                return "wdy need mate?"
