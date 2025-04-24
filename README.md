@@ -20,21 +20,36 @@ class enise_irem_colak:
     base = ["Istanbul", "Berlin"]
     interests = ["Explainable AI", "Genomics", "Data Visualization", "Pythonic workflows"]
     
-    def linkedin(self):
-        return "https://www.linkedin.com/in/eniseirem/"
-
+    # 🎓 Education
     def education(self):
-        return pd.DataFrame([
-            {"degree": "B.Sc.", "field": "Software Engineering", "institution": "Bahçeşehir University", "years": "2015-2019"},
-            {"degree": "M.Sc.", "field": "Big Data", "institution": "Bahçeşehir University", "years": "2020-2023"},
-            {"degree": "M.Sc. (in progress)", "field": "Data Science", "institution": "Freie Universität Berlin", "years": "2024-2026"},
-        ])
+     return {
+        "M.Sc. Data Science": {
+            "university": "Freie Universität Berlin",
+            "location": "Berlin, Germany",
+            "years": "2024–2026",
+            "status": "In Progress"
+        },
+        "M.Sc. Big Data": {
+            "university": "Bahçeşehir University",
+            "location": "Istanbul, Turkey",
+            "years": "2020–2023",
+            "status": "Completed"
+        },
+        "B.Sc. Software Engineering": {
+            "university": "Bahçeşehir University",
+            "location": "Istanbul, Turkey",
+            "years": "2015–2019",
+            "status": "Completed"
+        }
+    }
 
+    # 💼 Experience
     def experience(self):
         return pd.DataFrame([
             {"role": "IT Assistant Specialist", "company": "Vakıfbank", "focus": "Machine Learning / Python", "duration": "2022–..."},
         ])
 
+    # 🛠️ Tech Stack
     def tech_stack(self):
         return {
             "Languages": ["Python", "R", "PHP", "Java", "C#", "Matlab", "Julia"],
@@ -43,6 +58,7 @@ class enise_irem_colak:
             "Currently Exploring": ["xAI for Genomics", "Interpretable ML", "Data ethics"]
         }
 
+   # 🌍 Spoken Languages
     def languages_spoken(self):
         return {
             "Turkish": "Native",
