@@ -1,7 +1,6 @@
 # Hi, That's me!
 - > [Linkedin](https://www.linkedin.com/in/eniseirem/) [Medium](https://medium.com/@eniseirem)
-> I've a sticker which says "Talk is cheap show me the code." 
-> So here I am, showing you **The Code**.
+
 >"Talk is cheap. Show me the code."
 > — I took it personally.
 
