@@ -12,7 +12,7 @@ class eniseirem:
      name = "Enise İrem Çolak"
      title = "Software Engineer"
      location = "Istanbul - Berlin"
-     age = 27
+     age = 28
      
       # You can directly open my linkedin for more info. 
       
