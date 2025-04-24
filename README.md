@@ -14,7 +14,7 @@ import publications
 import sklearn
 import matplotlib.pyplot as plt
 
-class enise_irem_colak:
+class EniseIremColak:
     name = "Enise İrem Çolak"
     title = "Data Scientist in progress"
     base = ["Istanbul", "Berlin"]
@@ -53,7 +53,9 @@ class enise_irem_colak:
     def tech_stack(self):
         return {
             "Languages": ["Python", "R", "PHP", "Java", "C#", "Matlab", "Julia"],
-            "Frameworks": {"Python": "Pandas, NumPy, Scikit-learn, Django", "PHP": "Laravel"},
+            "Frameworks": {
+                        "Python": ["Pandas", "NumPy", "Scikit-learn", "Django"],
+                        "PHP": ["Laravel"] },
             "Tools": ["Jupyter", "VSCode", "Git", "Linux", "MySQL", "Weka"],
             "Currently Exploring": ["xAI for Genomics", "Interpretable ML", "Data ethics"]
         }
@@ -63,15 +65,10 @@ class enise_irem_colak:
         return {
             "Turkish": "Native",
             "English": "Professional",
-            "Italian": "A1 - Espresso and greetings"
-        }
+            "Italian": "A1 - Espresso and greetings ☕️",
+            "German": "A1 - In progress 🥨"
+      }
 
-    def visualize_life(self):
-        plt.plot(["2015", "2019", "2023", "2025"], [1, 2, 3, 4])
-        plt.title("Learning Curve")
-        plt.xlabel("Year")
-        plt.ylabel("Curiosity Level")
-        plt.show()
 
 
 ```
