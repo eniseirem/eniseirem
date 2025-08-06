@@ -52,11 +52,11 @@ class EniseIremColak:
     # 🛠️ Tech Stack
     def tech_stack(self):
         return {
-            "Languages": ["Python", "R", "PHP", "Java", "C#", "Matlab", "Julia"],
+            "Languages": ["Python", "R", "PHP", "Julia"],
             "Frameworks": {
                         "Python": ["Pandas", "NumPy", "Scikit-learn", "Django"],
                         "PHP": ["Laravel"] },
-            "Tools": ["Jupyter", "VSCode", "Git", "Linux", "MySQL", "Weka"],
+            "Tools": ["Linux", "MySQL", "Weka"],
             "Currently Exploring": ["xAI for Genomics", "Interpretable ML", "Data ethics"]
         }
 
