@@ -2,7 +2,6 @@
 - > [Linkedin](https://www.linkedin.com/in/eniseirem/) [Medium](https://medium.com/@eniseirem) [Website](https://eniseirem.github.io/)
 
 >"Talk is cheap. Show me the code."
-> — I took it personally.
 
 > Welcome to my GitHub. Here’s a playful look at me, via some pseudo-Python:
  
@@ -26,7 +25,7 @@ class EniseIremColak:
         "M.Sc. Data Science": {
             "university": "Freie Universität Berlin",
             "location": "Berlin, Germany",
-            "years": "2024–2026",
+            "years": "2024–2027",
             "status": "In Progress"
         },
         "M.Sc. Big Data": {
@@ -46,7 +45,10 @@ class EniseIremColak:
     # 💼 Experience
     def experience(self):
         return pd.DataFrame([
-            {"role": "IT Assistant Specialist", "company": "Vakıfbank", "focus": "Machine Learning / Python", "duration": "2022–..."},
+            {"role": "Workstudent", "company": "Fraunhofer HHI", "focus": "Explainable AI", "duration": "2026–..."},
+            {"role": "Data Scientist - Monitoring Platform Owner", "company": "Vakıfbank", "focus": "Machine Learning / Python", "duration": "2022–2026"},
+            {"role": "Software Engineering Specialist", "company": "Kapital Media", "focus": "Web Development / PHP", "duration": "2021–2022"},
+
         ])
 
     # 🛠️ Tech Stack
@@ -56,8 +58,8 @@ class EniseIremColak:
             "Frameworks": {
                         "Python": ["Pandas", "NumPy", "Scikit-learn", "Django"],
                         "PHP": ["Laravel"] },
-            "Tools": ["Linux", "MySQL", "Weka"],
-            "Currently Exploring": ["xAI for Genomics", "Interpretable ML", "Data ethics"]
+            "Tools": ["Linux", "MySQL", "Weka", "N8N", "Prometheus", "NiFi", "Docker"],
+            "Currently Exploring": ["xAI", "Interpretable ML", "Data ethics"]
         }
 
    # 🌍 Spoken Languages
@@ -65,7 +67,6 @@ class EniseIremColak:
         return {
             "Turkish": "Native",
             "English": "Professional",
-            "Italian": "A1 - Espresso and greetings ☕️",
             "German": "A1 - In progress 🥨"
       }
 
