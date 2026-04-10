@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 class EniseIremColak:
     name = "Enise İrem Çolak"
     title = "Data Scientist in progress"
-    base = ["Istanbul", "Berlin"]
+    base = ["Berlin"]
     interests = ["Explainable AI", "Genomics", "Data Visualization", "Pythonic workflows"]
     
     # 🎓 Education
@@ -45,7 +45,7 @@ class EniseIremColak:
     # 💼 Experience
     def experience(self):
         return pd.DataFrame([
-            {"role": "Workstudent", "company": "Fraunhofer HHI", "focus": "Explainable AI", "duration": "2026–..."},
+            {"role": "Student Researcher", "company": "Fraunhofer HHI", "focus": "Explainable AI", "duration": "2026–..."},
             {"role": "Data Scientist - Monitoring Platform Owner", "company": "Vakıfbank", "focus": "Machine Learning / Python", "duration": "2022–2026"},
             {"role": "Software Engineering Specialist", "company": "Kapital Media", "focus": "Web Development / PHP", "duration": "2021–2022"},
 
